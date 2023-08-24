@@ -1,7 +1,7 @@
 import React from 'react'
 import {GoogleLogin} from 'react-google-login'
 
-const clientId= "804950120639-0176109v4dhiji5qtr1hosi00oml8d5g.apps.googleusercontent.com"
+const clientId= "399374585727-ees19nj8oo5rura530nkbrrnhdj2je6m.apps.googleusercontent.com"
 
 const Login = () => {
 
@@ -9,8 +9,8 @@ const Login = () => {
         console.log("Login Success", res )
     }
 
-    const onFailure=(res)=>{
-        console.log("Login Success", res )
+    const onFailure=(err)=>{
+        console.log("Login falied", err )
     }
 
   return (
